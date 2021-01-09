@@ -1,0 +1,14 @@
+.elements__item-like {
+  margin: 30px 15px 0 0;
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  -webkit-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.elements__item-like:hover {
+  opacity: 0.5;
+}

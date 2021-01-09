@@ -1,0 +1,7 @@
+.profile__avatar {
+  border-radius: 50%;
+  max-width: 120px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}

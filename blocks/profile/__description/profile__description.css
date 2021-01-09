@@ -1,0 +1,17 @@
+.profile__description {
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin: 0;
+      grid-row-start: 2;
+  -ms-grid-column-span: 2;
+  grid-column: span 2;
+}
+
+@media screen and (max-width: 392px) {
+  .profile__description {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+}
