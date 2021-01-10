@@ -6,9 +6,10 @@
   background: #000000;
   border-radius: 2px;
   border: none;
-  margin: 48px 36px 37px;
-  width: 358px;
-  height: 50px;
+  margin: 48px 0 37px;
+  max-width: 358px;
+  width: 100%;
+  min-height: 50px;
   padding: 0;
   cursor: pointer;
   -webkit-transition: opacity 0.5s ease;
@@ -24,10 +25,9 @@
   .popup__sub-button {
     font-size: 14px;
     line-height: 17px;
-    text-align: center;
-    color: #FFFFFF;
-    width: 238px;
-    height: 46px;
-    margin: 45px 22px 25px;
+    max-width: 238px;
+    min-height: 46px;
+    margin-top: 45px;
+    margin-bottom: 25px;
   }
 }

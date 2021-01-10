@@ -8,17 +8,9 @@
   border-left: none;
   border-bottom: 1px solid rgba(0,0,0,0.2);
   min-height: 27px;
-  margin-right: 36px;
-  margin-left: 36px;
+  margin-bottom: 30px;
 }
 
-@media screen and (max-width: 504px) {
-  .popup__input {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    margin-left: 22px;
-    margin-right: 22px;
-    max-width: 238px;
-  }
+.popup__input:nth-of-type(2n) {
+  margin-bottom: 0;
 }

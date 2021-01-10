@@ -1,5 +1,8 @@
 .profile__edit-button {
   background-color: black;
+  background-image: url(../../../images/edit.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   -ms-grid-row-align: center;
       align-self: center;
   padding: 0;

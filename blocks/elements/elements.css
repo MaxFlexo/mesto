@@ -12,24 +12,6 @@
   -webkit-column-gap: 17px;
      -moz-column-gap: 17px;
           column-gap: 17px;
-}.elements > *:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-}.elements > *:nth-child(2) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-}.elements > *:nth-child(3) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 5;
-}.elements > *:nth-child(4) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-}.elements > *:nth-child(5) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 3;
-}.elements > *:nth-child(6) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 5;
 }
 
 @media screen and (max-width: 910px) {

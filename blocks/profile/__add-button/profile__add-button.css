@@ -1,5 +1,8 @@
 .profile__add-button {
   background-color: black;
+  background-image: url(../../../images/add-button.svg);
+  background-position: center;
+  background-repeat: no-repeat;
   -ms-flex-item-align: start;
       align-self: flex-start;
   min-width: 150px;
@@ -23,5 +26,6 @@
   .profile__add-button {
     margin: 0 19px 0;
     min-width: 282px;
+    align-self: center;
   }
 }
